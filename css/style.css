@@ -16,7 +16,8 @@
 body {
     font-family: "work san", sans-serif;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
 
@@ -324,6 +325,7 @@ html{
     z-index: -1;
 }
 
+
 .services .service-con .image img {
     width: 260px;
 
@@ -416,6 +418,14 @@ html{
     z-index: -1;
 }
 
+@media (max-width: 991px) {
+
+    .about .about-con .img::after,
+    .about .about-con .img::before {
+        display: none;
+    }
+}
+
 .about .about-con img {
     max-width: 100%;
 }
@@ -425,6 +435,7 @@ html{
         margin: 0 auto 80px;
 
     }
+
 }
 
 .about .about-con .text {
